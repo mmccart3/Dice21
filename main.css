@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+* {
+  color: #050A30;
+  font-family:"Roboto","sans-serif";
+  box-sizing: border-box;
+}
+body {
+  background-color: #C3E0E5;
+}
+
+h1 {
+  font-size: 400%;
+  display:flex;
+  align-content: center;
+  justify-content: center;
+
+}
+.diceDisplay{
+  display: flex;
+  min-height: 14vh;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  }
+
+.box {
+  color: white;
+  font-size: 100%;
+  text-align: center;
+  padding:15px;
+  border-radius: 25px;
+  width: 10%;
+  animation-name: none;
+  animation-duration: 2s;
+  }
+
+.buttonContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  }
+
+.button {
+  color: white;
+  background-color: blue;
+  font-size: 100%;
+  text-align: center;
+  padding:15px;
+  border-radius: 25px;
+  width: 10%;
+  animation-name: none;
+  animation-duration: 2s;
+
+  }
+
+.scoreContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  }
+
+.score {
+  color:blue;
+  background-color: lightcyan;
+  font-size: 100%;
+  text-align: center;
+  padding:15px;
+  border-radius: 25px;
+  width: 10%;
+  animation-name: none;
+  animation-duration: 2s;
+  
